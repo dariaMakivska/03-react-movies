@@ -1,6 +1,6 @@
 import css from './MovieModal.module.css'
 import { useEffect } from "react";
-import { Movie } from "../../types/movie";
+import type { Movie } from "../../types/movie";
 
 interface MovieModalProps {
   movie: Movie;
